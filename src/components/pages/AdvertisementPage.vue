@@ -27,7 +27,7 @@ function finish(goto) {
     <div class="page">
         <br><br><br>
         <img src="@/assets/brain.svg" width="220">
-        <h1 class="title is-3">Please help us understand the mind!</h1>
+        <h1 class="title is-3">Please help us understand the mind! </h1>
         <p>
             Take part in a short experiment where you play a game for money.
         </p>

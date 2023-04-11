@@ -96,13 +96,6 @@ timeline.pushSeqRoute({
   component: WindowSizer,
 })
 
-// captcha
-timeline.pushSeqRoute({
-  path: '/captcha',
-  name: 'captcha',
-  component: Captcha,
-})
-
 // instructions
 timeline.pushSeqRoute({
   path: '/instructions',

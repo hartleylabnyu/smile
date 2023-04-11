@@ -8,7 +8,7 @@ import vitePluginHtmlEnv from './scripts/vite-plugin-html-env'
 // https://vitejs.dev/config/
 export default ({ mode }) => {
   process.env = {
-    ...process.env,
+    ...process.env, 
     ...loadEnv(mode, `${process.cwd()}/env/`, ''),
     ...loadEnv('deploy', `${process.cwd()}/env/`, ''),
     ...loadEnv('git', `${process.cwd()}/env/`, ''),
