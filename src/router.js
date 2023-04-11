@@ -74,6 +74,13 @@ timeline.pushSeqRoute({
   component: Consent,
 })
 
+// captcha
+timeline.pushSeqRoute({
+  path: '/captcha',
+  name: 'captcha',
+  component: Captcha,
+})
+
 // demographic survery
 timeline.pushSeqRoute({
   path: '/demograph',

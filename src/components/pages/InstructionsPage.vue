@@ -24,9 +24,9 @@ function finish(goto) {
             <p> Today you will be playing a game to earn treasure. </p>
             <p> At the end of the experiment, you will earn a bonus based on how much treasure you find. </p>
             <img src="@/assets/instructions/images/treasure.png">
-            <audio autoplay id="music" src="src/assets/instructions/audio/introduction_text_2.wav" onended="console.log('ended')"></audio>
+            <audio autoplay id="music" src="src/assets/instructions/audio/introduction_text_2.wav" onended="finished"></audio>
         </div>
-        <button class="button is-success is-light" id='finish' @click="finish(next())">next &nbsp;<FAIcon icon="fa-solid fa-arrow-right" /></button>
+        <button class="button is-light" id='finish' @click="finish(next())">next &nbsp;<FAIcon icon="fa-solid fa-arrow-right" /></button>
     </div>
 </template>
 

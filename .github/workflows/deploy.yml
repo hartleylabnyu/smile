@@ -201,6 +201,6 @@ jobs:
           payload: |
             { 
               "github_username": "${{ steps.dotenv_github.outputs.VITE_GIT_OWNER }}",
-              "deploy_url": "https://${{ secrets.EXP_DEPLOY_HOST }}${{ steps.dotenv_github.outputs.VITE_DEPLOY_BASE_PATH }} although you should tell people https://${{ secrets.EXP_DEPLOY_HOST }}/e/${{ steps.dotenv_github.outputs.VITE_CODE_NAME }}",
+              "deploy_url": "https://${{ secrets.EXP_DEPLOY_HOST_URL }}${{ steps.dotenv_github.outputs.VITE_DEPLOY_BASE_PATH }} although you should tell people https://${{ secrets.EXP_DEPLOY_HOST_URL }}/e/${{ steps.dotenv_github.outputs.VITE_CODE_NAME }}",
               "github_hash": "https://github.com/${{ steps.dotenv_github.outputs.VITE_GIT_OWNER }}/${{ steps.dotenv_github.outputs.VITE_GIT_REPO_NAME }}/commit/${{ steps.dotenv_github.outputs.VITE_GIT_HASH }}"
             }
