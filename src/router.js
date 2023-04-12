@@ -20,6 +20,7 @@ import Thanks from '@/components/pages/ThanksPage.vue'
 import Config from '@/components/pages/ConfigPage.vue'
 import Withdraw from '@/components/pages/WithdrawPage.vue'
 import WindowSizer from '@/components/pages/WindowSizerPage.vue'
+import ExpPageDemo from '@/components/pages/ExpPageDemo.vue'
 // add new routes here.  generally these will be things in components/pages/[something].vue
 
 // 2. Define some routes to the timeline

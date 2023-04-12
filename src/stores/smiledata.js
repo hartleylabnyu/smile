@@ -58,6 +58,7 @@ export default defineStore('smilestore', {
       browser_data: [], // empty
       demographic_form: {}, // empty
       conditions: {},
+      task_data: {},
       withdraw: false, // false
       withdraw_data: {}, // empty
       smile_config: appconfig, //  adding config info to firebase document
@@ -148,6 +149,9 @@ export default defineStore('smilestore', {
     setConsented() {
       this.data.consented = true
       this.data.starttime = fsnow()
+    },
+    setTaskData(data) {
+      this.data.task_data = data
     },
     setWithdraw(forminfo) {
       this.data.withdraw = true
